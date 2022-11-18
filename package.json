@@ -1,0 +1,30 @@
+{
+  "name": "tic-tac-toe",
+  "version": "1.0.0",
+  "description": "This is a Tic-Tac-Toe game where you'll be able to choose the number of rows and columns and play against another person online, locally or against an AI",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js",
+    "start": "node index.js",
+    "docs": "jsdoc -c jsdoc.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juan26468818/Tic-Tac-Toe.git"
+  },
+  "keywords": [],
+  "author": "Juan Ayala <juanayala099@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juan26468818/Tic-Tac-Toe/issues"
+  },
+  "homepage": "https://github.com/juan26468818/Tic-Tac-Toe#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "standard": "^17.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "jsdoc": "^4.0.0"
+  }
+}
