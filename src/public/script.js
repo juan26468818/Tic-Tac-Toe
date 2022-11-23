@@ -145,7 +145,7 @@ const checkForWin = ()=>{
                 }else if(board[i] == board[i+1] && board[i] == board[i+2] && board[i] == board[i+3]){
                     alert("Column Win")
                     // @ts-ignore
-                }else if(board[i] == board[i + +boardSize.value +1] && board[i] == board[(i+ +boardSize.value +1)*2] && board[i] == board[(i+ +boardSize.value +1)*3]){
+                }else if(board[i] == board[i + +boardSize.value +1] && board[i] == board[i+ (+boardSize.value +1)*2] && board[i] == board[i+ (+boardSize.value +1)*3]){
                     alert("First Diagonal Win")
                     // @ts-ignore
                 }else if(board[i] == board[i - (+boardSize.value -1)] && board[i] == board[i - (+boardSize.value -1)*2] && board[i] == board[i - (+boardSize.value -1)*3]){
